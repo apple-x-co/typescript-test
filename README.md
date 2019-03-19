@@ -1,5 +1,6 @@
 # typescript-test
 
+compile
 ```bash
-tsc -p ./src/
+tsc
 ```
