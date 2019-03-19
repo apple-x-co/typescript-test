@@ -23,9 +23,4 @@ var MainApp;
     }());
     MainApp.Person = Person;
 })(MainApp || (MainApp = {}));
-window.addEventListener("load", function () {
-    var person = new MainApp.Person('太郎', '男');
-    console.log(person.name);
-    console.log(person.show());
-});
-//# sourceMappingURL=bundle.js.map
+//# sourceMappingURL=Person.js.map
