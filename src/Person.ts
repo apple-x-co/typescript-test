@@ -11,7 +11,7 @@ namespace MainApp {
         }
 
         get name(): string {
-            return this.name;
+            return this._name;
         }
         set name(value: string) {
             this._name = value;

@@ -35,6 +35,12 @@
 //    setInterval(() => { this.count++; }, 1000);
 // };
 
-let person = new MainApp.Person('太郎', '男');
-console.log(person.name);
-console.log(person.show());
+// let person = new MainApp.Person('太郎', '男');
+// console.log(person.name);
+// console.log(person.show());
+
+window.addEventListener("load", () => {
+    let person = new MainApp.Person('太郎', '男');
+    console.log(person.name);
+    console.log(person.show());
+});

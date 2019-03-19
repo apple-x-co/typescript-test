@@ -1,20 +1,14 @@
 "use strict";
 var MainApp;
 (function (MainApp) {
-    var Person = /** @class */ (function () {
-        // private name: string;
-        // private sex: string;
-        // constructor(name, sex) {
-        //     this.name = name;
-        //     this.sex = sex;
-        // }
+    var Person = (function () {
         function Person(_name, _sex) {
             this._name = _name;
             this._sex = _sex;
         }
         Object.defineProperty(Person.prototype, "name", {
             get: function () {
-                return this.name;
+                return this._name;
             },
             set: function (value) {
                 this._name = value;
@@ -29,4 +23,9 @@ var MainApp;
     }());
     MainApp.Person = Person;
 })(MainApp || (MainApp = {}));
-//# sourceMappingURL=Person.js.map
+window.addEventListener("load", function () {
+    var person = new MainApp.Person('太郎', '男');
+    console.log(person.name);
+    console.log(person.show());
+});
+//# sourceMappingURL=bundle.js.map
