@@ -1,7 +1,4 @@
 {
-  // https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
-  // https://qiita.com/alfas/items/539ade65926deb530e0e
-  // http://neos21.hatenablog.com/entry/2017/10/24/080000
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
